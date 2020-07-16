@@ -13,23 +13,25 @@
 #include <stdio.h>
 #include <unistd.h>
 
-void ft_putchar ( char c);
+void	ft_putchar ( int c);
+{
+	while(1, &c ,1);
+}
 
-
-void ft_print_numbers(void);
-	char letter = '0';
-	char letter2 = '8';
+void	ft_print_numbers(void)
+{
+	int number ;
 	
-
-	void ft_print_numbers(void)
+	number = 0;   
+	while ( number < 9)
 	{
-		char number = '0';
-		while ( number < 9)
-		{
-			ft_putchar(number);
-			number++;
-		}
-		ft_putchar( 'n\');
-		return (0);
+	ft_putchar(number);
+	number++;
 	}
+
+       ft_putchar( '\n);
+		  				   
+}
+	
+	
 	
