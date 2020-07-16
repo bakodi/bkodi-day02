@@ -31,8 +31,7 @@ void    ft_print_reverse_alphabet(void)
 
    ft_putchar('\n');
 }
-  ft_putchar('\n');
-}
+ 
 
 
 
