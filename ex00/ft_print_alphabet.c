@@ -33,9 +33,4 @@ void    ft_print_alphabet(void)
    ft_putchar('\n');
 }
 
-int main ()
-{
-	
-	ft_print_alphabet();
-}
 
