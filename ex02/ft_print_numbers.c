@@ -23,7 +23,7 @@ void	ft_print_numbers(void)
 	int number ;
 	
 	number = 0;   
-	while ( number < 9)
+	while ( number <= 9)
 	{
 	ft_putchar(number);
 	number++;
